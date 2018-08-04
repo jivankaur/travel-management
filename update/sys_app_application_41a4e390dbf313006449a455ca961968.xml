@@ -8,7 +8,7 @@
         <hint/>
         <name>Unicorn</name>
         <order/>
-        <roles>x_134142_unicorn.user,x_134142_unicorn.agency_admin,x_134142_unicorn.agency_manager,x_134142_unicorn.traveller,x_134142_unicorn.vendor</roles>
+        <roles>x_134142_unicorn.agency_admin,x_134142_unicorn.agency_manager,x_134142_unicorn.traveller,x_134142_unicorn.vendor</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-04 19:37:54</sys_created_on>

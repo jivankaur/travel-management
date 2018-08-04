@@ -28,7 +28,7 @@
         <sys_updated_on>2018-08-04 19:37:54</sys_updated_on>
         <template/>
         <trackable>true</trackable>
-        <user_role display_value="x_134142_unicorn.user" name="x_134142_unicorn.user">11a4e390dbf313006449a455ca96196b</user_role>
+        <user_role/>
         <vendor/>
         <vendor_prefix/>
         <version>1.0.0</version>

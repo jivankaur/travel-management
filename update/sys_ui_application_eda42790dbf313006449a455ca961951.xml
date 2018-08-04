@@ -5,7 +5,7 @@
         <hint/>
         <name>Unicorn</name>
         <order/>
-        <roles>x_134142_unicorn.user</roles>
+        <roles/>
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-04 19:37:55</sys_created_on>

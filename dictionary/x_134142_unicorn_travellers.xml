@@ -8,6 +8,9 @@
                 <element label="Female" sequence="1" value="female"/>
             </choice>
         </element>
-        <element display="true" label="Name" max_length="25" name="name" type="string"/>
+        <element display="true" label="Traveller" max_length="32" name="traveller" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="traveller"/>
+        </index>
     </element>
 </database>
