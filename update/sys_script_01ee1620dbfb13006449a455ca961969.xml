@@ -27,8 +27,10 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+        <script><![CDATA[
+(function executeRule(current, previous /*null when async*/) {
 
+	gs.info('Arthur was here')
 	current.status = 'proposed';
 	gs.addInfoMessage(current.vendor.city); 
 	//new comment
@@ -39,15 +41,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>01ee1620dbfb13006449a455ca961969</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>update trip type</sys_name>
         <sys_overrides/>
         <sys_package display_value="Unicorn" source="x_134142_unicorn">c5a42b50dbf313006449a455ca9619fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Unicorn">c5a42b50dbf313006449a455ca9619fd</sys_scope>
         <sys_update_name>sys_script_01ee1620dbfb13006449a455ca961969</sys_update_name>
-        <sys_updated_by>jivanjot.kaur@snc</sys_updated_by>
-        <sys_updated_on>2026-04-21 22:05:23</sys_updated_on>
+        <sys_updated_by>labuser3</sys_updated_by>
+        <sys_updated_on>2026-04-30 20:33:31</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
