@@ -29,7 +29,7 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	current.status = 'proposed';
+	current.status = 'pending';
 	gs.addInfoMessage(current.vendor.city); 
 	//new comment
 })(current, previous);]]></script>
